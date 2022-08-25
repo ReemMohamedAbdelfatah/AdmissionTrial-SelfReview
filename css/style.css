@@ -1,0 +1,98 @@
+@media screen and (min-width: 750px) {
+    body {
+      background-color: rgb(133, 210, 216);
+
+    }
+  }
+
+body {
+    margin: 0px; 
+    padding: 0px;
+    font-family: Calibri, sans-serif;
+}
+
+#header {
+   border-bottom: 2px solid ;
+   background-color: #45222250;
+
+}
+
+#nav-bar{
+    position: fixed;
+    flex-grow: 1;
+    text-align: right;
+    width:100%;
+    top:0;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+ #nav-bar a {
+     text-decoration: none;
+     color: red;
+     margin: 15px;
+     width: 25px;
+ }
+ #header-img {
+    height: 5%;
+    width:  5%;
+ }
+     
+#logo {
+ flex-grow: 1;
+  text-align: center;
+
+   
+
+}
+#form{
+
+    text-align: center;
+    color: aliceblue;
+    background: blueviolet;
+    
+}
+
+#form p {
+font-size: 24px;
+margin-top: 0;
+
+     
+}
+
+#submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#video-input {
+    text-align: center;
+    margin-top: 100px;
+    height: 50vh;
+}
+
+#products {
+    height: 50vh;
+}
+
+.pro {
+    text-align: center;
+
+}
+
+#products-row {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#products img {
+    height: 150px;
+    width: 300px;
+}
+
+.description {
+     text-align: center;
+     font-size: 20 px;
+}
